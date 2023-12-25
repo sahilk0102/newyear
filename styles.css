@@ -1,0 +1,38 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fde8e8; /* Pastel red-pink */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+button {
+    background-color: #ff5e62; /* Red */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    transition: transform 0.5s ease-in-out;
+}
+
+button:hover {
+    background-color: #d93a3e; /* Darker red on hover */
+}
+
+/* Make text attractive */
+p {
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+}
+
+.attractive-text {
+    font-family: 'Pacifico', cursive;
+    color: #ff5e62; /* Red */
+    font-size: 24px;
+}
