@@ -8,7 +8,7 @@ function moveButton() {
     if (clickCount < 5) {
         // Move the button by 500 pixels in a random direction
         const angle = Math.random() * 2 * Math.PI; // Random angle in radians
-        const distance = 10; // Adjusted distance in pixels
+        const distance = 15; // Adjusted distance in pixels
 
         const offsetX = distance * Math.cos(angle);
         const offsetY = distance * Math.sin(angle);
