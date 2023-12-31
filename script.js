@@ -8,7 +8,7 @@ function moveButton() {
     if (clickCount < 5) {
         // Move the button by 500 pixels in a random direction
         const angle = Math.random() * 2 * Math.PI; // Random angle in radians
-        const distance = 300; // Adjusted distance in pixels
+        const distance = 150; // Adjusted distance in pixels
 
         const offsetX = distance * Math.cos(angle);
         const offsetY = distance * Math.sin(angle);
@@ -30,7 +30,7 @@ function moveButton() {
         clickCount = 0;
 
         // Open the drive link (replace 'YOUR_DRIVE_LINK' with the actual link)
-        window.open('https://drive.google.com/file/d/1JjSJzVozqDMlZqBwKZkcY1wfnBfqxmoV/view?usp=sharing', '_blank');
+        window.open('https://drive.google.com/file/d/1epAYBGcoyAidoRllrDP3cXgs0yn7dzDU/view?usp=sharing', '_blank');
 
         // Reset the button text
         button.textContent = "Sanyukta click this.";
