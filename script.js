@@ -30,7 +30,7 @@ function moveButton() {
         clickCount = 0;
 
         // Open the drive link (replace 'YOUR_DRIVE_LINK' with the actual link)
-        window.open('https://drive.google.com/file/d/1epAYBGcoyAidoRllrDP3cXgs0yn7dzDU/view?usp=sharing', '_blank');
+        window.open('https://drive.google.com/file/d/1tC834hAHVJ3RvW14_8a7KgrBaSubMcYi/view?usp=sharing', '_blank');
 
         // Reset the button text
         button.textContent = "Sanyukta click this.";
